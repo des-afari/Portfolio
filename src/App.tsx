@@ -1,12 +1,18 @@
-import Header from "./components/Header"
+import About from "./components/About"
 import Index from "./components/Index"
+import Projects from "./components/Projects"
 
 function App() {
   return (
-    <div className="bg-zinc-900 min-h-screen text-zinc-500">
-      <Header />
-      <Index />
-    </div>
+    <main className="bg-zinc-900 text-zinc-400">
+      <div className="min-h-screen px-4 md:px-6 lg:px-12 xl:max-w-7xl xl:mx-auto py-12 lg:py-0 lg:grid lg:grid-cols-2 lg:gap-x-2">
+        <Index />
+        <div className="overflow-auto">
+          <About />
+          <Projects />
+        </div>
+      </div>
+    </main>
   )
 }
 

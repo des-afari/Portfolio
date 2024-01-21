@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Education from "./components/Education"
 import Index from "./components/Index"
 import Projects from "./components/Projects"
 
@@ -10,6 +11,7 @@ function App() {
         <div className="overflow-auto">
           <About />
           <Projects />
+          <Education />
         </div>
       </div>
     </main>

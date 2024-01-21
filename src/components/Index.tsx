@@ -27,6 +27,9 @@ const Index: FC = () => {
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='hover:stroke-zinc-200 transition-all' stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><title>Email me</title><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
           </a>
         </span>
+        <span className='ml-8'>
+          <button>RESUME</button>
+        </span>
       </div>
     </section>
   )

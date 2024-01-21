@@ -5,17 +5,17 @@ import pokeImage from '../assets/img/pokebook.png'
 
 const Projects: FC = () => {
   return (
-    <section>
-      <div className='lg:hidden mt-24'>
+    <section id='projects' className='projects'>
+      <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>PROJECTS</h2>
-      </div>
-      <div className='mt-12 lg:mt-24 md:text-lg flex gap-y-12 flex-col'>
+      </header>
+      <div className='mt-8 px-4 md:px-6 flex gap-y-12 flex-col'>
         <a href="https://blog.desmondafari.com" target='_blank'>
           <div className='lg:grid lg:grid-cols-4 lg:gap-x-3 space-y-2 lg:space-y-0 px-3 py-4 lg:py-6 bg-zinc-800 border border-b-0 border-zinc-700'>
             <img src={blogImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="blog project image" />
             <div className='col-span-3 pt-2 lg:pt-0 lg:space-y-1'>
-              <h3 className='text-zinc-200 font-semibold text-lg lg:text-xl lg:font-bold'>Personal Blog</h3>
-              <p className='lg:text-base'>Application that allows me to teach whilst getting a better understand on interesting topics.</p>
+              <h3 className='text-zinc-200 font-bold text-lg'>Personal Blog</h3>
+              <p>Application that allows me to teach whilst getting a better understand on interesting topics.</p>
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
@@ -30,8 +30,8 @@ const Projects: FC = () => {
           <div className='lg:grid lg:grid-cols-4 lg:gap-x-3 space-y-2 lg:space-y-0 px-3 py-4 lg:py-6 bg-zinc-800 border border-b-0 border-zinc-700'>
             <img src={recImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="recommender project image" />
             <div className='col-span-3 pt-2 lg:pt-0 lg:space-y-1'>
-              <h1 className='text-zinc-200 font-semibold text-lg lg:text-xl lg:font-bold'>Movie Recommendation App</h1>
-              <p className='lg:text-base'>Recommends ten movies you might be interested in watching based on your favorite movie.</p>
+              <h1 className='text-zinc-200 font-bold text-lg'>Movie Recommender</h1>
+              <p>Recommends ten movies you might be interested in watching based on your favorite movie.</p>
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
@@ -45,8 +45,8 @@ const Projects: FC = () => {
           <div className='lg:grid lg:grid-cols-4 lg:gap-x-3 space-y-2 lg:space-y-0 px-3 py-4 lg:py-6 bg-zinc-800 border border-b-0 border-zinc-700'>
             <img src={pokeImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="pokebook project image" />
             <div className='col-span-3 pt-2 lg:pt-0 lg:space-y-1'>
-              <h3 className='text-zinc-200 font-semibold text-lg lg:text-xl lg:font-bold'>Pokebook</h3>
-              <p className='lg:text-base'>A list of all pokemons, their strengths and weaknesses, and their stats.</p>
+              <h3 className='text-zinc-200 font-bold text-lg'>Pokebook</h3>
+              <p>A list of all pokemons, their strengths and weaknesses, and their stats.</p>
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>

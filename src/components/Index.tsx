@@ -2,10 +2,27 @@ import { FC } from 'react'
 
 const Index: FC = () => {
   return (
-    <section className='lg:h-screen lg:sticky lg:top-0 lg:py-16'> 
+    <section className='px-4 md:px-6 lg:h-screen lg:sticky lg:top-0 lg:py-16'> 
+      <p>Hi there 👋, my name is</p>
       <h1 className='text-4xl md:text-5xl font-bold text-zinc-200'>Desmond Afari</h1>
       <h3 className='mt-2 text-lg md:text-xl font-medium text-zinc-200'>Machine Learning Engineer</h3>
       <p className='mt-4 lg:max-w-[27rem] xl:max-w-lg'>I harness the power of data and cutting-edge algorithms to develop solutions.</p>
+      <div className='py-12'>
+        <ul className='text-sm'>
+          <li>
+            <a href="#about">----ABOUT</a>
+          </li>
+          <li>
+            <a href="#projects">----PROJECTS</a>
+          </li>
+          <li>
+            <a href="#education">----EDUCATION</a>
+          </li>
+          <li>
+            <a href="#technologies">----TECHNOLOGIES</a>
+          </li>
+        </ul>
+      </div>
       <div className='mt-8 flex items-center gap-x-4'>
         <span>
           <a href="https://github.com/des-afari" target='_blank'>
@@ -27,8 +44,11 @@ const Index: FC = () => {
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='hover:stroke-zinc-200 transition-all' stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><title>Email me</title><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
           </a>
         </span>
-        <span className='ml-8'>
-          <button>RESUME</button>
+        <span className='ml-6'>
+          <button className='flex items-center bg-zinc-700 px-3 py-1 rounded-full border border-zinc-500 hover:bg-zinc-700/70 transition-colors'>
+            Résumé
+            <svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.64645 11.3536C3.45118 11.1583 3.45118 10.8417 3.64645 10.6465L10.2929 4L6 4C5.72386 4 5.5 3.77614 5.5 3.5C5.5 3.22386 5.72386 3 6 3L11.5 3C11.6326 3 11.7598 3.05268 11.8536 3.14645C11.9473 3.24022 12 3.36739 12 3.5L12 9.00001C12 9.27615 11.7761 9.50001 11.5 9.50001C11.2239 9.50001 11 9.27615 11 9.00001V4.70711L4.35355 11.3536C4.15829 11.5488 3.84171 11.5488 3.64645 11.3536Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg>
+          </button>
         </span>
       </div>
     </section>

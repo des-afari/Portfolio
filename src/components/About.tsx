@@ -8,9 +8,8 @@ const About: FC = () => {
         <h2 className='font-extrabold text-zinc-200'>ABOUT</h2>
       </header>
       <div className='px-4 md:px-6 mt-8 lg:mt-0 md:text-lg'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eum vero perferendis nihil accusantium maiores? Et possimus tenetur veniam repellendus perspiciatis ea dolor, praesentium asperiores iste cumque, quos soluta neque?</p>
-        <p className='mt-4'>My expertise lies in building machine learning models, and I specialize in utilizing <span className='text-zinc-200'>Natural Language Processing</span> (NLP), <span className='text-zinc-200'>Neural Networks</span> (NN), and <span className='text-zinc-200'>Convolutional Neural Networks</span> (CNN) to address various challenges.</p>
-        <p className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eum vero perferendis nihil accusantium maiores? Et possimus tenetur veniam repellendus perspiciatis ea dolor, praesentium asperiores iste cumque, quos soluta neque?</p>
+        <p>I am a <span className='text-zinc-200'>machine learning</span> and <span className='text-zinc-200'>software engineer</span> with a over 5 years of experience. My journey began as a software engineer, where I honed my skills in <span className='text-zinc-200'>TypeScript</span>, <span className='text-zinc-200'>React</span>, <span className='text-zinc-200'>Python</span> and <span className='text-zinc-200'>FastAPI</span>. Recently, I took an exciting leap into the captivating world of <span className='text-zinc-200'>machine learning</span>,  directing my focus towards <span className='text-zinc-200'>PyTorch</span>. I also have a keen understanding of techniques such as <span className='text-zinc-200'>deep learning</span> and <span className='text-zinc-200'>natural language processing</span>.</p>
+        <p className='mt-4'>Beyond my core competencies, I am well-versed in <span className='text-zinc-200'>Data Science</span>. This includes <span className='text-zinc-200'>Feature Engineering</span>, <span className='text-zinc-200'>Exploratory Data Analysis</span> and <span className='text-zinc-200'>Data Visualization</span>. These skills enhance my ability to create end-to-end solutions.</p>
       </div>
     </Element>
   )

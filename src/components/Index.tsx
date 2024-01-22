@@ -1,14 +1,11 @@
 import { FC, useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 
-
 const Index: FC = () => {
   const [activeSection, setActiveSection] = useState<string>('')
 
   const handleScroll = () => {
-    const sections = document.querySelectorAll('.section')
-    console.log('hell no')
-    
+    const sections = document.querySelectorAll('.section')    
 
     for (const section of sections) {
       const rect = section.getBoundingClientRect()
@@ -35,25 +32,25 @@ const Index: FC = () => {
       <p className='mt-4 lg:max-w-[27rem] xl:max-w-lg'>I harness the power of data and cutting-edge algorithms to develop solutions.</p>
       <div className='py-16 hidden lg:block'>
         <ul className='text-sm space-y-3'>
-          <li className='cursor-pointer'>
+          <li className='cursor-pointer w-fit'>
             <Link to="about" smooth={true} duration={500} className={activeSection === 'about' ? 'active': 'inactive'}>
               <div></div>
               <p className='font-bold'>ABOUT</p>
             </Link>
           </li>
-          <li className='cursor-pointer'>
+          <li className='cursor-pointer w-fit'>
             <Link to="projects" smooth={true} duration={500} className={activeSection === 'projects' ? 'active': 'inactive'}>
               <div></div>
               <p className='font-bold'>PROJECTS</p>
             </Link>
           </li>
-          <li className='cursor-pointer'>
+          <li className='cursor-pointer w-fit'>
             <Link to="education" smooth={true} duration={500} className={activeSection === 'education' ? 'active': 'inactive'}>
               <div></div>
               <p className='font-bold'>EDUCATION</p>
             </Link>
           </li>
-          <li className='cursor-pointer'>
+          <li className='cursor-pointer w-fit'>
             <Link to="technologies" smooth={true} duration={500} className={activeSection === 'technologies' ? 'active': 'inactive'}>
               <div></div>
               <p className='font-bold'>TECHNOLOGIES</p>
@@ -79,14 +76,16 @@ const Index: FC = () => {
         </span>
         <span>
           <a href="mailto:afaridesmond@gmail.com">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='stroke-zinc-500 hover:stroke-zinc-200 transition-all' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><title>Email me</title><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='stroke-zinc-500 hover:stroke-zinc-200 transition-all fill-zinc-900' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><title>Email me</title><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
           </a>
         </span>
         <span className='ml-6'>
-          <button className='flex items-center bg-zinc-700 px-3 py-1 rounded-full border border-zinc-500 hover:bg-zinc-700/70 transition-colors'>
-            Résumé
-            <svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.64645 11.3536C3.45118 11.1583 3.45118 10.8417 3.64645 10.6465L10.2929 4L6 4C5.72386 4 5.5 3.77614 5.5 3.5C5.5 3.22386 5.72386 3 6 3L11.5 3C11.6326 3 11.7598 3.05268 11.8536 3.14645C11.9473 3.24022 12 3.36739 12 3.5L12 9.00001C12 9.27615 11.7761 9.50001 11.5 9.50001C11.2239 9.50001 11 9.27615 11 9.00001V4.70711L4.35355 11.3536C4.15829 11.5488 3.84171 11.5488 3.64645 11.3536Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg>
-          </button>
+          <a href="/resume" rel='noreferrer'>
+            <button className='flex items-center bg-zinc-700 px-3 py-1 rounded-full border border-zinc-500 hover:bg-zinc-700/70 transition-colors'>
+              Résumé
+              <svg width="16" height="16" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.64645 11.3536C3.45118 11.1583 3.45118 10.8417 3.64645 10.6465L10.2929 4L6 4C5.72386 4 5.5 3.77614 5.5 3.5C5.5 3.22386 5.72386 3 6 3L11.5 3C11.6326 3 11.7598 3.05268 11.8536 3.14645C11.9473 3.24022 12 3.36739 12 3.5L12 9.00001C12 9.27615 11.7761 9.50001 11.5 9.50001C11.2239 9.50001 11 9.27615 11 9.00001V4.70711L4.35355 11.3536C4.15829 11.5488 3.84171 11.5488 3.64645 11.3536Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg>
+            </button>
+          </a>
         </span>
       </div>
     </section>

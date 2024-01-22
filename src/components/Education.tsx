@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 const Education: FC = () => {
   return (
-    <section id='education'>
+    <section id='education' className='section'>
       <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>EDUCATION</h2>
       </header>

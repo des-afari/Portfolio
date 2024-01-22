@@ -1,4 +1,3 @@
-import { useRef } from "react"
 import About from "./components/About"
 import Education from "./components/Education"
 import Index from "./components/Index"

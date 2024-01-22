@@ -5,7 +5,7 @@ import pokeImage from '../assets/img/pokebook.png'
 
 const Projects: FC = () => {
   return (
-    <section id='projects' className='projects'>
+    <section id='projects' className='section'>
       <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>PROJECTS</h2>
       </header>
@@ -22,8 +22,8 @@ const Projects: FC = () => {
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>FastAPI</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>SQLAlchemy</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>TypeScript</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>TailwindCSS</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Axios</span>
           </div>
         </a> 
         <a href="https://desmonda-movie-recommendation-system.hf.space/" target='_blank'>
@@ -36,7 +36,7 @@ const Projects: FC = () => {
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Streamlit</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Pickle</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Python</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Scikit Learn</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>K Nearest Neighbor</span>
           </div>       
@@ -51,9 +51,10 @@ const Projects: FC = () => {
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Axios</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React Paginate</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React Router DOM</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>JavaScript</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>HTML</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>SCSS</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>CSS</span>
           </div>              
         </a>      
       </div>

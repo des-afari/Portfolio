@@ -1,8 +1,9 @@
 import { FC } from 'react'
+import { Element } from 'react-scroll'
 
 const Education: FC = () => {
   return (
-    <section id='education' className='section'>
+    <Element id='education' name='education' className='section'>
       <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>EDUCATION</h2>
       </header>
@@ -26,7 +27,7 @@ const Education: FC = () => {
           <p className='mt-4'><span className='text-zinc-200 font-medium'>Relevant Coursework:</span>  Algebra, Calculus, C Programming, Differential Equations, Microprocessors, Probability, Statistics, Computer Networking</p>
         </div>
       </div>
-    </section>
+    </Element>
   )
 }
 

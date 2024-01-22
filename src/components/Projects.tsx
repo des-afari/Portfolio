@@ -2,10 +2,11 @@ import { FC } from 'react'
 import blogImage from '../assets/img/blog.png'
 import recImage from '../assets/img/movieRec.png'
 import pokeImage from '../assets/img/pokebook.png'
+import { Element } from 'react-scroll'
 
 const Projects: FC = () => {
   return (
-    <section id='projects' className='section'>
+    <Element id='projects' name='projects' className='section'>
       <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>PROJECTS</h2>
       </header>
@@ -58,7 +59,7 @@ const Projects: FC = () => {
           </div>              
         </a>      
       </div>
-    </section>
+    </Element>
   )
 }
 

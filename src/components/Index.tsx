@@ -27,8 +27,8 @@ const Index: FC = () => {
   return (
     <section className='px-4 md:px-6 lg:h-screen lg:sticky lg:top-0 lg:py-16'> 
       <p>Hi there 👋, my name is</p>
-      <h1 className='text-4xl md:text-5xl font-bold text-zinc-200'>Desmond Afari</h1>
-      <h3 className='mt-2 text-lg md:text-xl font-medium text-zinc-200'>Machine Learning Engineer</h3>
+      <h1 className='text-[2.5rem] md:text-5xl font-bold text-zinc-200'>Desmond Afari</h1>
+      <h3 className='md:mt-2 text-lg leading-[1rem] md:text-xl font-medium text-zinc-200'>Machine Learning Engineer</h3>
       <p className='mt-4 lg:max-w-[27rem] xl:max-w-lg'>I harness the power of data and cutting-edge algorithms to develop solutions.</p>
       <div className='py-16 hidden lg:block'>
         <ul className='text-sm space-y-3'>

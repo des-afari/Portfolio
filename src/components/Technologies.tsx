@@ -4,10 +4,10 @@ import { Element } from 'react-scroll'
 const Technologies: FC = () => {
   return (
     <Element id='technologies' name='technologies' className='section lg:mb-36'>
-      <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
+      <header className='sticky top-0 px-4 sm:px-12 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>TECHNOLOGIES</h2>
       </header>
-      <div className='mt-8 px-4 md:px-6 grid grid-cols-3 md:grid-cols-4 gap-3'>
+      <div className='mt-8 px-4 sm:px-12 md:px-6 grid grid-cols-3 md:grid-cols-4 gap-3'>
         <div className='bg-zinc-800 border border-zinc-700 flex item-center justify-center p-4'>
           <svg role="img" className=' w-16 h-16 fill-zinc-400 hover:fill-zinc-200 transition-colors' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>PyTorch</title>

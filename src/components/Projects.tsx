@@ -7,10 +7,10 @@ import { Element } from 'react-scroll'
 const Projects: FC = () => {
   return (
     <Element id='projects' name='projects' className='section'>
-      <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
+      <header className='sticky top-0 px-4 sm:px-12 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>PROJECTS</h2>
       </header>
-      <div className='mt-8 px-4 md:px-6 flex gap-y-12 flex-col'>
+      <div className='mt-8 px-4 sm:px-12 md:px-6 flex gap-y-12 flex-col'>
         <a href="https://blog.desmondafari.com" target='_blank' rel='noopener noreferrer'>
           <div className='lg:grid lg:grid-cols-4 lg:gap-x-3 space-y-2 lg:space-y-0 px-3 py-4 lg:py-6 bg-zinc-800 border border-b-0 border-zinc-700'>
             <img src={blogImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="blog project image" />

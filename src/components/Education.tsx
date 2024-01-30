@@ -4,10 +4,10 @@ import { Element } from 'react-scroll'
 const Education: FC = () => {
   return (
     <Element id='education' name='education' className='section'>
-      <header className='sticky top-0 px-4 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
+      <header className='sticky top-0 px-4 sm:px-12 md:px-6 lg:opacity-0 flex items-center mt-20 h-12 bg-zinc-900/75 backdrop-blur'>
         <h2 className='font-extrabold text-zinc-200'>EDUCATION</h2>
       </header>
-      <div className='mt-8 px-4 md:px-6 flex gap-y-24 flex-col'>
+      <div className='mt-8 px-4 sm:px-12 md:px-6 flex gap-y-24 flex-col'>
         <div>
           <p className='text-xs'>DECEMBER 2022 - APRIL 2023</p>
           <h1 className='mt-4 text-zinc-200 text-lg font-semibold'>Data Scientist: Machine Learning</h1>

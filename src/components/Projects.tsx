@@ -20,10 +20,11 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>FastAPI</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>SQLAlchemy</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Python</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>TypeScript</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>FastAPI</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>MySQL</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>TailwindCSS</span>
           </div>
         </a> 
@@ -36,10 +37,10 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Streamlit</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Python</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Scikit Learn</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>K Nearest Neighbor</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>Streamlit</span>
           </div>       
         </a> 
         <a href="https://pokebook-delta.vercel.app/" target='_blank' rel='noopener noreferrer'>
@@ -51,11 +52,11 @@ const Projects: FC = () => {
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>JavaScript</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>React</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>HTML</span>
-            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>SCSS</span>
             <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>CSS</span>
+            <span className='items-center rounded-md border border-zinc-500 px-2.5 py-0.5 text-xs font-semibold'>SCSS</span>
           </div>              
         </a>      
       </div>

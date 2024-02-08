@@ -28,8 +28,8 @@ const Index: FC = () => {
     <section className='px-4 sm:px-12 md:px-6 lg:h-screen lg:sticky lg:top-0 lg:py-16'> 
       <p>Hi there 👋, my name is</p>
       <h1 className='text-[2.5rem] md:text-5xl font-bold text-zinc-200'>Desmond Afari</h1>
-      <h3 className='md:mt-2 text-lg leading-[1rem] md:text-xl font-medium text-zinc-200'>Machine Learning Engineer</h3>
-      <p className='mt-4 lg:max-w-[27rem] xl:max-w-lg'>I harness the power of data and cutting-edge algorithms to develop solutions.</p>
+      <h3 className='md:mt-2 text-lg leading-[1rem] md:text-xl font-medium text-zinc-200'>Full-stack Developer</h3>
+      <p className='mt-4 lg:max-w-[27rem] xl:max-w-lg'>I harness the power of both front-end and back-end technologies to create comprehensive web solutions.</p>
       <div className='py-16 hidden lg:block'>
         <ul className='text-sm space-y-3'>
           <li className='cursor-pointer w-fit'>

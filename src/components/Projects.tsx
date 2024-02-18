@@ -16,7 +16,7 @@ const Projects: FC = () => {
             <img src={blogImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="blog project image" />
             <div className='col-span-3 pt-2 lg:pt-0 lg:space-y-1'>
               <h3 className='text-zinc-200 font-bold text-lg'>Personal Blog</h3>
-              <p>Facilitates the sharing of insights while enriching my comprehension of diverse subjects.</p>
+              <p>A tech-focused blog, offering valuable insights to successfully traverse the digital terrain.</p>
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
@@ -32,8 +32,8 @@ const Projects: FC = () => {
           <div className='lg:grid lg:grid-cols-4 lg:gap-x-3 space-y-2 lg:space-y-0 px-3 py-4 lg:py-6 bg-zinc-800 border border-b-0 border-zinc-700'>
             <img src={recImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="recommender project image" />
             <div className='col-span-3 pt-2 lg:pt-0 lg:space-y-1'>
-              <h1 className='text-zinc-200 font-bold text-lg'>Movie Recommender</h1>
-              <p>Suggests a curated list of ten movies aligned with your preferences.</p>
+              <h1 className='text-zinc-200 font-bold text-lg'>Movie Recommendation System</h1>
+              <p>Offers a curated selection of ten movies tailored to match your preferences.</p>
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
@@ -47,8 +47,8 @@ const Projects: FC = () => {
           <div className='lg:grid lg:grid-cols-4 lg:gap-x-3 space-y-2 lg:space-y-0 px-3 py-4 lg:py-6 bg-zinc-800 border border-b-0 border-zinc-700'>
             <img src={pokeImage} className='col-span-1 w-[55%] lg:w-full lg:mt-1' alt="pokebook project image" />
             <div className='col-span-3 pt-2 lg:pt-0 lg:space-y-1'>
-              <h3 className='text-zinc-200 font-bold text-lg'>Pokebook</h3>
-              <p>A comprehensive repository featuring an extensive list of Pokémon.</p>
+              <h3 className='text-zinc-200 font-bold text-lg'>Pokébook</h3>
+              <p>An extensive online database detailing Pokémon species, their skills, and weaknesses.</p>
             </div>
           </div>
           <div className='text-xs p-3 flex gap-2 flex-wrap bg-zinc-800 border border-t-0 border-zinc-700'>
